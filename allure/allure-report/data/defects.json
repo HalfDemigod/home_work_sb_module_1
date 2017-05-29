@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "854b9522d0de4d84",
+      "failure" : {
+        "message" : "{ВнешняяОбработка.РасчетВозрастаЧеловекаВМесяцах.Форма.Форма.Форма(92)}: Результат расчитан не верно; ИмяФайла=C:\\repo\\home_work_sb_module_1\\features\\step_definitions\\РасчетВозрастаЧеловекаВМесяцах.epf, ИмяПроцедуры=РезультатВычисленияВозрастаБудетРавен, версия VB=ver 1.1.007, версия платформы=8.3.10.2168, режим совместимости=НеИспользовать",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "bb6c92679b34d60f",
+        "name" : "Вычисление возраста человека родившегося 01.01.1950 на 25.04.2017",
+        "title" : "2017",
+        "time" : {
+          "start" : 63631687481428,
+          "stop" : 63631687482360,
+          "duration" : 932
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

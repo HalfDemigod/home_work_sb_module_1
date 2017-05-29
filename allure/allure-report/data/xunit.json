@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 63631687481428,
+    "stop" : 63631687482360,
+    "duration" : 932
+  },
+  "testSuites" : [ {
+    "uid" : "7c90ddadffbe625",
+    "name" : "РасчетВозрастаЧеловекаВМесяцах",
+    "title" : "РасчетВозрастаЧеловекаВМесяцах",
+    "time" : {
+      "start" : 63631687481428,
+      "stop" : 63631687482360,
+      "duration" : 932
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "bb6c92679b34d60f",
+      "name" : "Вычисление возраста человека родившегося 01.01.1950 на 25.04.2017",
+      "title" : "2017",
+      "time" : {
+        "start" : 63631687481428,
+        "stop" : 63631687482360,
+        "duration" : 932
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  } ]
+}

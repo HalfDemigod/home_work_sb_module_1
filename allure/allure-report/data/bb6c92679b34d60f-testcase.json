@@ -1,0 +1,95 @@
+{
+  "uid" : "bb6c92679b34d60f",
+  "name" : "Вычисление возраста человека родившегося 01.01.1950 на 25.04.2017",
+  "title" : "2017",
+  "time" : {
+    "start" : 63631687481428,
+    "stop" : 63631687482360,
+    "duration" : 932
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : {
+    "message" : "{ВнешняяОбработка.РасчетВозрастаЧеловекаВМесяцах.Форма.Форма.Форма(92)}: Результат расчитан не верно; ИмяФайла=C:\\repo\\home_work_sb_module_1\\features\\step_definitions\\РасчетВозрастаЧеловекаВМесяцах.epf, ИмяПроцедуры=РезультатВычисленияВозрастаБудетРавен, версия VB=ver 1.1.007, версия платформы=8.3.10.2168, режим совместимости=НеИспользовать",
+    "stackTrace" : null
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "7c90ddadffbe625",
+    "name" : "РасчетВозрастаЧеловекаВМесяцах",
+    "title" : "РасчетВозрастаЧеловекаВМесяцах"
+  },
+  "steps" : [ {
+    "name" : "Допустим  У меня есть дата рождения равная 01.01.1950",
+    "title" : "Допустим  У меня есть дата рождения равная 01.01.1950",
+    "time" : {
+      "start" : 63631687481882,
+      "stop" : 63631687481882,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "И У меня есть текущая дата равная 25.04.2017",
+    "title" : "И У меня есть текущая дата равная 25.04.2017",
+    "time" : {
+      "start" : 63631687482060,
+      "stop" : 63631687482060,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Тогда Результат вычисления возраста будет равен 807",
+    "title" : "Тогда Результат вычисления возраста будет равен 807",
+    "time" : {
+      "start" : 63631687482276,
+      "stop" : 63631687482360,
+      "duration" : 84
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "РасчетВозрастаЧеловекаВМесяцах"
+  }, {
+    "name" : "feature",
+    "value" : "РасчетВозрастаЧеловекаВМесяцах"
+  }, {
+    "name" : "framework",
+    "value" : "vanessa-behavior"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "language",
+    "value" : "1С"
+  }, {
+    "name" : "story",
+    "value" : "Вычисление возраста человека родившегося 01.01.1950 на 25.04.2017"
+  } ],
+  "parameters" : [ ]
+}

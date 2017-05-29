@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name xmlns="">РасчетВозрастаЧеловекаВМесяцах</name>
+	<test-cases xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<test-case start="63631687481428" stop="63631687482360" status="failed">
+			<name>Вычисление возраста человека родившегося 01.01.1950 на 25.04.2017</name>
+			<failure>
+				<message>{ВнешняяОбработка.РасчетВозрастаЧеловекаВМесяцах.Форма.Форма.Форма(92)}: Результат расчитан не верно; ИмяФайла=C:\repo\home_work_sb_module_1\features\step_definitions\РасчетВозрастаЧеловекаВМесяцах.epf, ИмяПроцедуры=РезультатВычисленияВозрастаБудетРавен, версия VB=ver 1.1.007, версия платформы=8.3.10.2168, режим совместимости=НеИспользовать</message>
+			</failure>
+			<steps>
+				<step start="63631687481882" stop="63631687481882" status="passed">
+					<name>Допустим  У меня есть дата рождения равная 01.01.1950</name>
+					<title>Допустим  У меня есть дата рождения равная 01.01.1950</title>
+				</step>
+				<step start="63631687482060" stop="63631687482060" status="passed">
+					<name>И У меня есть текущая дата равная 25.04.2017</name>
+					<title>И У меня есть текущая дата равная 25.04.2017</title>
+				</step>
+				<step start="63631687482276" stop="63631687482360" status="failed">
+					<name>Тогда Результат вычисления возраста будет равен 807</name>
+					<title>Тогда Результат вычисления возраста будет равен 807</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Вычисление возраста человека родившегося 01.01.1950 на 25.04.2017"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<label name="feature" value="РасчетВозрастаЧеловекаВМесяцах"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>

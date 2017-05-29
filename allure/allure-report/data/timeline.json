@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "default",
+    "threads" : [ {
+      "title" : "default",
+      "testCases" : [ {
+        "uid" : "bb6c92679b34d60f",
+        "name" : "Вычисление возраста человека родившегося 01.01.1950 на 25.04.2017",
+        "title" : "2017",
+        "time" : {
+          "start" : 63631687481428,
+          "stop" : 63631687482360,
+          "duration" : 932
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}
